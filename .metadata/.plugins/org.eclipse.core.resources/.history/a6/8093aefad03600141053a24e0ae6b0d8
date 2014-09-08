@@ -1,0 +1,12 @@
+// Direction, Input/Output
+#define GPIO_3_DIR ((unsigned int*)0x50028000 )
+// State of pins, High/Low
+#define GPIO_3_DATA ((unsigned int*)0x50023FFC)
+
+void initButtons () {
+	// the default direction is actually input, but let's assign the buttons
+	// a nice zero regardless.
+	*dir = GPIO_3_DIR;
+	*dir = 0x0;
+}
+

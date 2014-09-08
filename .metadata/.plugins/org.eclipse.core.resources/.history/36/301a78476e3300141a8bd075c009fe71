@@ -1,0 +1,18 @@
+/*
+ * header.c
+ *
+ *  Created on: 3 Sep 2014
+ *      Author: MB
+ */
+# define PIO2_DIR 0x50028000;
+# define PIO2_LEDS 0x50023FFC;
+
+void initLeds () {
+	int *dir = PIO2_DIR;
+	*dir = 0xFF;
+}
+
+void shineOnMe () {
+	int *leds = PIO2_LEDS;
+	*leds = 1;
+}

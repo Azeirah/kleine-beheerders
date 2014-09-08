@@ -1,0 +1,45 @@
+#define GPIO_2_DIR ((unsigned int*)0x50028000 )//Direction, Input/Output
+#define GPIO_2_DATA ((unsigned int*)0x50023FFC) //State of pins, High/Low
+
+#include "util.h"
+
+void initLeds()
+{
+    // setting led pins as outputs
+	unsigned int *dir = GPIO_2_DIR;
+	unsigned int *data = GPIO_2_DATA;
+	*dir = 0xFFF;
+	*data &= 0;
+}
+
+void setLeds(unsigned char ledMask)
+{
+	/*
+	 * Takes an 8-bit ledMask for leds 0-7
+	 * 8765 4321
+	 * 0000 0000
+	 *
+	 */
+	unsigned int *data = GPIO_2_DATA;
+	*data = ~(ledMask << 1) | 1;
+}
+
+void kitt()
+{
+	int i;
+	int delayTime = 1;
+	for (i = 0; i < 8; i++) {
+		setLeds(1 << i);
+		delay(delayTime);
+	}
+	for (i = 0; i < 6; i++) {
+		setLeds(0x80 >> i);
+		delay(delayTime);
+	}
+}
+
+void shineOnMe()
+{
+	unsigned int *data = GPIO_2_DATA;
+	*data = ~0xFFF;
+}

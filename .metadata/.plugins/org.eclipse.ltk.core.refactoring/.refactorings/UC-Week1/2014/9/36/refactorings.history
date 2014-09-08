@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Create method setLeds" description="Extract Method Refactoring" fileName="file:/F:/UC/UC-Week1/src/leds.c" flags="4" id="org.eclipse.cdt.internal.ui.refactoring.extractfunction.ExtractFunctionRefactoring" name="setLeds" replaceDuplicates="false" selection="585,16" stamp="1410115504083" visibility="private"/>
+</session>

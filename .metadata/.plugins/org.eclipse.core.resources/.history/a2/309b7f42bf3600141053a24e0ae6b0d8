@@ -1,0 +1,40 @@
+/*
+ * leds.h
+ *
+ *  Created on: 5 sep. 2014
+ *      Author: Martijn
+ */
+
+#ifndef LEDS_H_
+#define LEDS_H_
+
+void initLeds() {
+	// setting led pins as outputs
+	8 - bit
+	ledMask
+	for leds 0-7
+	* 8765 4
+
+	* 0000 0000
+	*
+	*/
+
+	*data = ~(
+			*dir = 0xFFF;
+			*data &= ~1;
+		}
+void shineOnMe();
+void kitt();
+
+void setLeds(unsigned char ledMask) {
+	/*
+	 * Takes an 8-bit ledMask for leds 0-7
+	 * 8765 4321
+	 * 0000 0000
+	 *
+	 */
+
+	*data = ~(ledMask << 1) & ~1;
+}
+
+#endif /* LEDS_H_ */

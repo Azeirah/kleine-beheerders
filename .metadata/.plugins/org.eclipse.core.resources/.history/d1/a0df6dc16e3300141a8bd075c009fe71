@@ -1,0 +1,13 @@
+/*
+ * main.c
+ *
+ *  Created on: 3 Sep 2014
+ *      Author: MB
+ */
+# include "leds.h"
+
+int main () {
+	test();
+
+	return 0;
+}

@@ -1,0 +1,30 @@
+/*
+===============================================================================
+ Name        : UC-Week1.c
+ Author      : $(author)
+ Version     :
+ Copyright   : $(copyright)
+ Description : main definition
+===============================================================================
+*/
+
+#ifdef __USE_CMSIS
+#include "LPC13xx.h"
+#include "leds.h"
+#include "buttons.h"
+#endif
+
+#include <cr_section_macros.h>
+
+int main(void) {
+	initLeds();
+	initButtons();
+
+	uint8_t lightsState = 0xFF;
+
+    while(1) {
+    	uint8_t buttonState = readButtons();
+    	lightsState = advanceState(bstate, lightsState);
+    }
+    return 0 ;
+}

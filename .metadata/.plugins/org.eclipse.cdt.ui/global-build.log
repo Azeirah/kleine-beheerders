@@ -1,0 +1,2429 @@
+14:33:50 **** Incremental Build of configuration Debug for project Project_uC_week_1 ****
+make all 
+Building file: ../src/Project_uC_week_1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Project_uC_week_1.d" -MT"src/Project_uC_week_1.d" -o "src/Project_uC_week_1.o" "../src/Project_uC_week_1.c"
+../src/Project_uC_week_1.c: In function 'main':
+../src/Project_uC_week_1.c:23:2: warning: implicit declaration of function 'test' [-Wimplicit-function-declaration]
+  test();
+  ^
+Finished building: ../src/Project_uC_week_1.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main () {
+      ^
+Finished building: ../src/main.c
+ 
+Building target: Project_uC_week_1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="Project_uC_week_1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "Project_uC_week_1_Debug.ld" -o "Project_uC_week_1.axf"  ./src/Project_uC_week_1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/main.o   
+./src/main.o: In function `main':
+C:\Users\MB\Documents\LPCXpresso_7.2.0_153\workspace\Project_uC_week_1\Debug/../src/main.c:9: multiple definition of `main'
+./src/Project_uC_week_1.o:C:\Users\MB\Documents\LPCXpresso_7.2.0_153\workspace\Project_uC_week_1\Debug/../src/Project_uC_week_1.c:22: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [Project_uC_week_1.axf] Error 1
+14:33:57 **** Incremental Build of configuration Debug for project Project_uC_week_1 ****
+make all 
+Building target: Project_uC_week_1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="Project_uC_week_1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "Project_uC_week_1_Debug.ld" -o "Project_uC_week_1.axf"  ./src/Project_uC_week_1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/main.o   
+./src/main.o: In function `main':
+C:\Users\MB\Documents\LPCXpresso_7.2.0_153\workspace\Project_uC_week_1\Debug/../src/main.c:9: multiple definition of `main'
+./src/Project_uC_week_1.o:C:\Users\MB\Documents\LPCXpresso_7.2.0_153\workspace\Project_uC_week_1\Debug/../src/Project_uC_week_1.c:22: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [Project_uC_week_1.axf] Error 1
+14:33:59 **** Incremental Build of configuration Debug for project Project_uC_week_1 ****
+make all 
+Building target: Project_uC_week_1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="Project_uC_week_1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "Project_uC_week_1_Debug.ld" -o "Project_uC_week_1.axf"  ./src/Project_uC_week_1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/main.o   
+./src/main.o: In function `main':
+C:\Users\MB\Documents\LPCXpresso_7.2.0_153\workspace\Project_uC_week_1\Debug/../src/main.c:9: multiple definition of `main'
+./src/Project_uC_week_1.o:C:\Users\MB\Documents\LPCXpresso_7.2.0_153\workspace\Project_uC_week_1\Debug/../src/Project_uC_week_1.c:22: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [Project_uC_week_1.axf] Error 1
+14:34:09 **** Incremental Build of configuration Debug for project Project_uC_week_1 ****
+make all 
+Building target: Project_uC_week_1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="Project_uC_week_1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "Project_uC_week_1_Debug.ld" -o "Project_uC_week_1.axf"  ./src/Project_uC_week_1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/main.o   
+./src/main.o: In function `main':
+C:\Users\MB\Documents\LPCXpresso_7.2.0_153\workspace\Project_uC_week_1\Debug/../src/main.c:9: multiple definition of `main'
+./src/Project_uC_week_1.o:C:\Users\MB\Documents\LPCXpresso_7.2.0_153\workspace\Project_uC_week_1\Debug/../src/Project_uC_week_1.c:22: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [Project_uC_week_1.axf] Error 1
+14:34:22 **** Incremental Build of configuration Debug for project Project_uC_week_1 ****
+make all 
+Building target: Project_uC_week_1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="Project_uC_week_1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "Project_uC_week_1_Debug.ld" -o "Project_uC_week_1.axf"  ./src/Project_uC_week_1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o   
+Finished building target: Project_uC_week_1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "Project_uC_week_1.axf"; # arm-none-eabi-objcopy -v -O binary "Project_uC_week_1.axf" "Project_uC_week_1.bin" ; # checksum -p LPC1343 -d "Project_uC_week_1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    524	      0	      0	    524	    20c	Project_uC_week_1.axf
+ 
+14:34:27 **** Incremental Build of configuration Debug for project Project_uC_week_1 ****
+make all 
+make: Nothing to be done for `all'.
+18:26:47 **** Clean-only build of configuration Debug for project UC-Week1 ****
+make clean 
+rm -rf  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o  ./src/UC-Week1.d ./src/cr_startup_lpc13xx.d ./src/crp.d ./src/leds.d ./src/util.d  UC-Week1.axf
+ 
+18:26:51 **** Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:25:2: warning: implicit declaration of function 'initLeds' [-Wimplicit-function-declaration]
+  initLeds();
+  ^
+../src/UC-Week1.c:34:6: warning: implicit declaration of function 'kitt' [-Wimplicit-function-declaration]
+      kitt();
+      ^
+../src/UC-Week1.c:31:25: warning: unused variable 'i' [-Wunused-variable]
+     volatile static int i = 0 ;
+                         ^
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/cr_startup_lpc13xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc13xx.d" -MT"src/cr_startup_lpc13xx.d" -o "src/cr_startup_lpc13xx.o" "../src/cr_startup_lpc13xx.c"
+Finished building: ../src/cr_startup_lpc13xx.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building file: ../src/util.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/util.d" -MT"src/util.d" -o "src/util.o" "../src/util.c"
+Finished building: ../src/util.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    632	      0	      0	    632	    278	UC-Week1.axf
+ 
+18:27:05 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+18:29:31 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+18:29:39 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+18:31:10 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    632	      0	      0	    632	    278	UC-Week1.axf
+ 
+18:31:19 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+18:31:40 **** Clean-only build of configuration Debug for project UC-Week1 ****
+make clean 
+rm -rf  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o  ./src/UC-Week1.d ./src/cr_startup_lpc13xx.d ./src/crp.d ./src/leds.d ./src/util.d  UC-Week1.axf
+rm: cannot unlink `UC-Week1.axf': Permission denied
+make: [clean] Error 1 (ignored)
+ 
+18:31:43 **** Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:25:2: warning: implicit declaration of function 'initLeds' [-Wimplicit-function-declaration]
+  initLeds();
+  ^
+../src/UC-Week1.c:34:6: warning: implicit declaration of function 'kitt' [-Wimplicit-function-declaration]
+      kitt();
+      ^
+../src/UC-Week1.c:31:25: warning: unused variable 'i' [-Wunused-variable]
+     volatile static int i = 0 ;
+                         ^
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/cr_startup_lpc13xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc13xx.d" -MT"src/cr_startup_lpc13xx.d" -o "src/cr_startup_lpc13xx.o" "../src/cr_startup_lpc13xx.c"
+Finished building: ../src/cr_startup_lpc13xx.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building file: ../src/util.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/util.d" -MT"src/util.d" -o "src/util.o" "../src/util.c"
+Finished building: ../src/util.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    632	      0	      0	    632	    278	UC-Week1.axf
+ 
+18:33:29 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    632	      0	      0	    632	    278	UC-Week1.axf
+ 
+18:34:27 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+18:35:10 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    632	      0	      0	    632	    278	UC-Week1.axf
+ 
+18:35:50 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    632	      0	      0	    632	    278	UC-Week1.axf
+ 
+18:43:20 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    608	      0	      0	    608	    260	UC-Week1.axf
+ 
+18:45:40 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    608	      0	      0	    608	    260	UC-Week1.axf
+ 
+18:46:29 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    608	      0	      0	    608	    260	UC-Week1.axf
+ 
+18:46:58 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+18:50:01 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    608	      0	      0	    608	    260	UC-Week1.axf
+ 
+19:16:40 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    608	      0	      0	    608	    260	UC-Week1.axf
+ 
+19:17:05 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+19:19:14 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    608	      0	      0	    608	    260	UC-Week1.axf
+ 
+19:19:42 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+19:20:19 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    608	      0	      0	    608	    260	UC-Week1.axf
+ 
+19:26:54 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    624	      0	      0	    624	    270	UC-Week1.axf
+ 
+19:27:17 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+19:29:06 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    624	      0	      0	    624	    270	UC-Week1.axf
+ 
+19:29:31 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+19:31:17 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    624	      0	      0	    624	    270	UC-Week1.axf
+ 
+19:31:43 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+19:34:08 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    620	      0	      0	    620	    26c	UC-Week1.axf
+ 
+19:34:31 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+19:35:37 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    624	      0	      0	    624	    270	UC-Week1.axf
+ 
+19:36:08 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+19:37:14 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    628	      0	      0	    628	    274	UC-Week1.axf
+ 
+19:37:45 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+19:37:59 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+19:38:21 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+19:39:43 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Command canceled
+19:39:57 **** Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    628	      0	      0	    628	    274	UC-Week1.axf
+ 
+19:40:45 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    628	      0	      0	    628	    274	UC-Week1.axf
+ 
+21:30:05 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/eventLoop.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/eventLoop.d" -MT"src/eventLoop.d" -o "src/eventLoop.o" "../src/eventLoop.c"
+../src/eventLoop.c: In function 'loopy':
+../src/eventLoop.c:10:3: warning: implicit declaration of function 'readInputs' [-Wimplicit-function-declaration]
+   readInputs();
+   ^
+Finished building: ../src/eventLoop.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+../src/leds.c: In function 'ledsWriteRGB':
+../src/leds.c:29:12: error: 'ledMask' undeclared (first use in this function)
+  *data = ~(ledMask << 9) & ~1;
+            ^
+../src/leds.c:29:12: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/leds.o] Error 1
+21:30:30 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/eventLoop.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    660	      0	      0	    660	    294	UC-Week1.axf
+ 
+21:32:53 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/eventLoop.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    620	      0	      0	    620	    26c	UC-Week1.axf
+ 
+22:47:14 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c:20:1: error: unknown type name 'uint8_t'
+ uint8_t advanceState(uint8_t lightsState, uint8_t rgb, uint8_t direction, uint8_t currentLed, uint8_t buttonState) {
+ ^
+../src/UC-Week1.c:20:22: error: unknown type name 'uint8_t'
+ uint8_t advanceState(uint8_t lightsState, uint8_t rgb, uint8_t direction, uint8_t currentLed, uint8_t buttonState) {
+                      ^
+../src/UC-Week1.c:20:43: error: unknown type name 'uint8_t'
+ uint8_t advanceState(uint8_t lightsState, uint8_t rgb, uint8_t direction, uint8_t currentLed, uint8_t buttonState) {
+                                           ^
+../src/UC-Week1.c:20:56: error: unknown type name 'uint8_t'
+ uint8_t advanceState(uint8_t lightsState, uint8_t rgb, uint8_t direction, uint8_t currentLed, uint8_t buttonState) {
+                                                        ^
+../src/UC-Week1.c:20:75: error: unknown type name 'uint8_t'
+ uint8_t advanceState(uint8_t lightsState, uint8_t rgb, uint8_t direction, uint8_t currentLed, uint8_t buttonState) {
+                                                                           ^
+../src/UC-Week1.c:20:95: error: unknown type name 'uint8_t'
+ uint8_t advanceState(uint8_t lightsState, uint8_t rgb, uint8_t direction, uint8_t currentLed, uint8_t buttonState) {
+                                                                                               ^
+../src/UC-Week1.c:26:17: error: unknown type name 'uint8_t'
+ void handleRGB (uint8_t buttons) {
+                 ^
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:31:2: warning: implicit declaration of function 'initLeds' [-Wimplicit-function-declaration]
+  initLeds();
+  ^
+../src/UC-Week1.c:32:2: warning: implicit declaration of function 'initButtons' [-Wimplicit-function-declaration]
+  initButtons();
+  ^
+../src/UC-Week1.c:34:2: error: unknown type name 'uint8_t'
+  uint8_t lightsState = 0xFF;
+  ^
+../src/UC-Week1.c:35:2: error: unknown type name 'uint8_t'
+  uint8_t rgb = 0x7;
+  ^
+../src/UC-Week1.c:36:2: error: unknown type name 'uint8_t'
+  uint8_t direction = 1;
+  ^
+../src/UC-Week1.c:37:2: error: unknown type name 'uint8_t'
+  uint8_t currentLed = 0;
+  ^
+../src/UC-Week1.c:40:6: warning: implicit declaration of function 'handleRGB' [-Wimplicit-function-declaration]
+      handleRGB(readButtons);
+      ^
+../src/UC-Week1.c:40:16: error: 'readButtons' undeclared (first use in this function)
+      handleRGB(readButtons);
+                ^
+../src/UC-Week1.c:40:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/UC-Week1.c:41:6: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+      delay(1);
+      ^
+../src/UC-Week1.c:37:10: warning: unused variable 'currentLed' [-Wunused-variable]
+  uint8_t currentLed = 0;
+          ^
+../src/UC-Week1.c:36:10: warning: unused variable 'direction' [-Wunused-variable]
+  uint8_t direction = 1;
+          ^
+../src/UC-Week1.c:35:10: warning: unused variable 'rgb' [-Wunused-variable]
+  uint8_t rgb = 0x7;
+          ^
+../src/UC-Week1.c:34:10: warning: unused variable 'lightsState' [-Wunused-variable]
+  uint8_t lightsState = 0xFF;
+          ^
+make: *** [src/UC-Week1.o] Error 1
+22:47:50 **** Clean-only build of configuration Debug for project UC-Week1 ****
+make clean 
+rm -rf  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/eventLoop.o ./src/leds.o ./src/util.o  ./src/UC-Week1.d ./src/buttons.d ./src/cr_startup_lpc13xx.d ./src/crp.d ./src/eventLoop.d ./src/leds.d ./src/util.d  UC-Week1.axf
+rm: cannot unlink `UC-Week1.axf': Permission denied
+make: [clean] Error 1 (ignored)
+ 
+22:47:53 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c:20:1: error: unknown type name 'uint8_t'
+ uint8_t advanceState(uint8_t lightsState, uint8_t rgb, uint8_t direction, uint8_t currentLed, uint8_t buttonState) {
+ ^
+../src/UC-Week1.c:20:22: error: unknown type name 'uint8_t'
+ uint8_t advanceState(uint8_t lightsState, uint8_t rgb, uint8_t direction, uint8_t currentLed, uint8_t buttonState) {
+                      ^
+../src/UC-Week1.c:20:43: error: unknown type name 'uint8_t'
+ uint8_t advanceState(uint8_t lightsState, uint8_t rgb, uint8_t direction, uint8_t currentLed, uint8_t buttonState) {
+                                           ^
+../src/UC-Week1.c:20:56: error: unknown type name 'uint8_t'
+ uint8_t advanceState(uint8_t lightsState, uint8_t rgb, uint8_t direction, uint8_t currentLed, uint8_t buttonState) {
+                                                        ^
+../src/UC-Week1.c:20:75: error: unknown type name 'uint8_t'
+ uint8_t advanceState(uint8_t lightsState, uint8_t rgb, uint8_t direction, uint8_t currentLed, uint8_t buttonState) {
+                                                                           ^
+../src/UC-Week1.c:20:95: error: unknown type name 'uint8_t'
+ uint8_t advanceState(uint8_t lightsState, uint8_t rgb, uint8_t direction, uint8_t currentLed, uint8_t buttonState) {
+                                                                                               ^
+../src/UC-Week1.c:26:17: error: unknown type name 'uint8_t'
+ void handleRGB (uint8_t buttons) {
+                 ^
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:31:2: warning: implicit declaration of function 'initLeds' [-Wimplicit-function-declaration]
+  initLeds();
+  ^
+../src/UC-Week1.c:32:2: warning: implicit declaration of function 'initButtons' [-Wimplicit-function-declaration]
+  initButtons();
+  ^
+../src/UC-Week1.c:34:2: error: unknown type name 'uint8_t'
+  uint8_t lightsState = 0xFF;
+  ^
+../src/UC-Week1.c:35:2: error: unknown type name 'uint8_t'
+  uint8_t rgb = 0x7;
+  ^
+../src/UC-Week1.c:36:2: error: unknown type name 'uint8_t'
+  uint8_t direction = 1;
+  ^
+../src/UC-Week1.c:37:2: error: unknown type name 'uint8_t'
+  uint8_t currentLed = 0;
+  ^
+../src/UC-Week1.c:40:6: warning: implicit declaration of function 'handleRGB' [-Wimplicit-function-declaration]
+      handleRGB(readButtons);
+      ^
+../src/UC-Week1.c:40:16: error: 'readButtons' undeclared (first use in this function)
+      handleRGB(readButtons);
+                ^
+../src/UC-Week1.c:40:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/UC-Week1.c:41:6: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+      delay(1);
+      ^
+../src/UC-Week1.c:37:10: warning: unused variable 'currentLed' [-Wunused-variable]
+  uint8_t currentLed = 0;
+          ^
+../src/UC-Week1.c:36:10: warning: unused variable 'direction' [-Wunused-variable]
+  uint8_t direction = 1;
+          ^
+../src/UC-Week1.c:35:10: warning: unused variable 'rgb' [-Wunused-variable]
+  uint8_t rgb = 0x7;
+          ^
+../src/UC-Week1.c:34:10: warning: unused variable 'lightsState' [-Wunused-variable]
+  uint8_t lightsState = 0xFF;
+          ^
+make: *** [src/UC-Week1.o] Error 1
+22:49:13 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c:20:17: error: unknown type name 'uint8_t'
+ void handleRGB (uint8_t buttons) {
+                 ^
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:25:2: warning: implicit declaration of function 'initLeds' [-Wimplicit-function-declaration]
+  initLeds();
+  ^
+../src/UC-Week1.c:26:2: warning: implicit declaration of function 'initButtons' [-Wimplicit-function-declaration]
+  initButtons();
+  ^
+../src/UC-Week1.c:28:2: error: unknown type name 'uint8_t'
+  uint8_t lightsState = 0xFF;
+  ^
+../src/UC-Week1.c:29:2: error: unknown type name 'uint8_t'
+  uint8_t rgb = 0x7;
+  ^
+../src/UC-Week1.c:30:2: error: unknown type name 'uint8_t'
+  uint8_t direction = 1;
+  ^
+../src/UC-Week1.c:31:2: error: unknown type name 'uint8_t'
+  uint8_t currentLed = 0;
+  ^
+../src/UC-Week1.c:34:6: warning: implicit declaration of function 'handleRGB' [-Wimplicit-function-declaration]
+      handleRGB(readButtons);
+      ^
+../src/UC-Week1.c:34:16: error: 'readButtons' undeclared (first use in this function)
+      handleRGB(readButtons);
+                ^
+../src/UC-Week1.c:34:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/UC-Week1.c:35:6: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+      delay(1);
+      ^
+../src/UC-Week1.c:31:10: warning: unused variable 'currentLed' [-Wunused-variable]
+  uint8_t currentLed = 0;
+          ^
+../src/UC-Week1.c:30:10: warning: unused variable 'direction' [-Wunused-variable]
+  uint8_t direction = 1;
+          ^
+../src/UC-Week1.c:29:10: warning: unused variable 'rgb' [-Wunused-variable]
+  uint8_t rgb = 0x7;
+          ^
+../src/UC-Week1.c:28:10: warning: unused variable 'lightsState' [-Wunused-variable]
+  uint8_t lightsState = 0xFF;
+          ^
+make: *** [src/UC-Week1.o] Error 1
+22:49:48 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c:20:17: error: unknown type name 'uint8_t'
+ void handleRGB (uint8_t buttons) {
+                 ^
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:25:2: warning: implicit declaration of function 'initLeds' [-Wimplicit-function-declaration]
+  initLeds();
+  ^
+../src/UC-Week1.c:26:2: warning: implicit declaration of function 'initButtons' [-Wimplicit-function-declaration]
+  initButtons();
+  ^
+../src/UC-Week1.c:28:2: error: unknown type name 'uint8_t'
+  uint8_t lightsState = 0xFF;
+  ^
+../src/UC-Week1.c:29:2: error: unknown type name 'uint8_t'
+  uint8_t rgb = 0x7;
+  ^
+../src/UC-Week1.c:30:2: error: unknown type name 'uint8_t'
+  uint8_t direction = 1;
+  ^
+../src/UC-Week1.c:31:2: error: unknown type name 'uint8_t'
+  uint8_t currentLed = 0;
+  ^
+../src/UC-Week1.c:34:6: warning: implicit declaration of function 'handleRGB' [-Wimplicit-function-declaration]
+      handleRGB(readButtons);
+      ^
+../src/UC-Week1.c:34:16: error: 'readButtons' undeclared (first use in this function)
+      handleRGB(readButtons);
+                ^
+../src/UC-Week1.c:34:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/UC-Week1.c:35:6: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+      delay(1);
+      ^
+../src/UC-Week1.c:31:10: warning: unused variable 'currentLed' [-Wunused-variable]
+  uint8_t currentLed = 0;
+          ^
+../src/UC-Week1.c:30:10: warning: unused variable 'direction' [-Wunused-variable]
+  uint8_t direction = 1;
+          ^
+../src/UC-Week1.c:29:10: warning: unused variable 'rgb' [-Wunused-variable]
+  uint8_t rgb = 0x7;
+          ^
+../src/UC-Week1.c:28:10: warning: unused variable 'lightsState' [-Wunused-variable]
+  uint8_t lightsState = 0xFF;
+          ^
+make: *** [src/UC-Week1.o] Error 1
+22:51:35 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c:20:17: error: unknown type name 'uint8_t'
+ void handleRGB (uint8_t buttons) {
+                 ^
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:25:2: warning: implicit declaration of function 'initLeds' [-Wimplicit-function-declaration]
+  initLeds();
+  ^
+../src/UC-Week1.c:26:2: warning: implicit declaration of function 'initButtons' [-Wimplicit-function-declaration]
+  initButtons();
+  ^
+../src/UC-Week1.c:28:2: error: unknown type name 'uint8_t'
+  uint8_t lightsState = 0xFF;
+  ^
+../src/UC-Week1.c:29:2: error: unknown type name 'uint8_t'
+  uint8_t rgb = 0x7;
+  ^
+../src/UC-Week1.c:30:2: error: unknown type name 'uint8_t'
+  uint8_t direction = 1;
+  ^
+../src/UC-Week1.c:31:2: error: unknown type name 'uint8_t'
+  uint8_t currentLed = 0;
+  ^
+../src/UC-Week1.c:34:6: warning: implicit declaration of function 'handleRGB' [-Wimplicit-function-declaration]
+      handleRGB(readButtons);
+      ^
+../src/UC-Week1.c:34:16: error: 'readButtons' undeclared (first use in this function)
+      handleRGB(readButtons);
+                ^
+../src/UC-Week1.c:34:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/UC-Week1.c:35:6: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+      delay(1);
+      ^
+../src/UC-Week1.c:31:10: warning: unused variable 'currentLed' [-Wunused-variable]
+  uint8_t currentLed = 0;
+          ^
+../src/UC-Week1.c:30:10: warning: unused variable 'direction' [-Wunused-variable]
+  uint8_t direction = 1;
+          ^
+../src/UC-Week1.c:29:10: warning: unused variable 'rgb' [-Wunused-variable]
+  uint8_t rgb = 0x7;
+          ^
+../src/UC-Week1.c:28:10: warning: unused variable 'lightsState' [-Wunused-variable]
+  uint8_t lightsState = 0xFF;
+          ^
+make: *** [src/UC-Week1.o] Error 1
+22:51:55 **** Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c:20:17: error: unknown type name 'uint8_t'
+ void handleRGB (uint8_t buttons) {
+                 ^
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:25:2: warning: implicit declaration of function 'initLeds' [-Wimplicit-function-declaration]
+  initLeds();
+  ^
+../src/UC-Week1.c:26:2: warning: implicit declaration of function 'initButtons' [-Wimplicit-function-declaration]
+  initButtons();
+  ^
+../src/UC-Week1.c:28:2: error: unknown type name 'uint8_t'
+  uint8_t lightsState = 0xFF;
+  ^
+../src/UC-Week1.c:29:2: error: unknown type name 'uint8_t'
+  uint8_t rgb = 0x7;
+  ^
+../src/UC-Week1.c:30:2: error: unknown type name 'uint8_t'
+  uint8_t direction = 1;
+  ^
+../src/UC-Week1.c:31:2: error: unknown type name 'uint8_t'
+  uint8_t currentLed = 0;
+  ^
+../src/UC-Week1.c:34:6: warning: implicit declaration of function 'handleRGB' [-Wimplicit-function-declaration]
+      handleRGB(readButtons);
+      ^
+../src/UC-Week1.c:34:16: error: 'readButtons' undeclared (first use in this function)
+      handleRGB(readButtons);
+                ^
+../src/UC-Week1.c:34:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/UC-Week1.c:35:6: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+      delay(1);
+      ^
+../src/UC-Week1.c:31:10: warning: unused variable 'currentLed' [-Wunused-variable]
+  uint8_t currentLed = 0;
+          ^
+../src/UC-Week1.c:30:10: warning: unused variable 'direction' [-Wunused-variable]
+  uint8_t direction = 1;
+          ^
+../src/UC-Week1.c:29:10: warning: unused variable 'rgb' [-Wunused-variable]
+  uint8_t rgb = 0x7;
+          ^
+../src/UC-Week1.c:28:10: warning: unused variable 'lightsState' [-Wunused-variable]
+  uint8_t lightsState = 0xFF;
+          ^
+make: *** [src/UC-Week1.o] Error 1
+22:53:02 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'handleRGB':
+../src/UC-Week1.c:21:2: warning: implicit declaration of function 'toggleRGB' [-Wimplicit-function-declaration]
+  toggleRGB(buttons >> 1);
+  ^
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:25:2: warning: implicit declaration of function 'initLeds' [-Wimplicit-function-declaration]
+  initLeds();
+  ^
+../src/UC-Week1.c:26:2: warning: implicit declaration of function 'initButtons' [-Wimplicit-function-declaration]
+  initButtons();
+  ^
+../src/UC-Week1.c:34:16: error: 'readButtons' undeclared (first use in this function)
+      handleRGB(readButtons);
+                ^
+../src/UC-Week1.c:34:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/UC-Week1.c:35:6: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+      delay(1);
+      ^
+../src/UC-Week1.c:31:7: warning: unused variable 'currentLed' [-Wunused-variable]
+  char currentLed = 0;
+       ^
+../src/UC-Week1.c:30:7: warning: unused variable 'direction' [-Wunused-variable]
+  char direction = 1;
+       ^
+../src/UC-Week1.c:29:7: warning: unused variable 'rgb' [-Wunused-variable]
+  char rgb = 0x7;
+       ^
+../src/UC-Week1.c:28:7: warning: unused variable 'lightsState' [-Wunused-variable]
+  char lightsState = 0xFF;
+       ^
+make: *** [src/UC-Week1.o] Error 1
+22:53:29 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c:16:21: fatal error: LPC13xx.h: No such file or directory
+ #include "LPC13xx.h"
+                     ^
+compilation terminated.
+make: *** [src/UC-Week1.o] Error 1
+22:53:42 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:35:6: warning: passing argument 1 of 'handleRGB' makes integer from pointer without a cast [enabled by default]
+      handleRGB(readButtons);
+      ^
+../src/UC-Week1.c:21:6: note: expected 'char' but argument is of type 'uint8_t (*)()'
+ void handleRGB (char buttons) {
+      ^
+../src/UC-Week1.c:32:7: warning: unused variable 'currentLed' [-Wunused-variable]
+  char currentLed = 0;
+       ^
+../src/UC-Week1.c:31:7: warning: unused variable 'direction' [-Wunused-variable]
+  char direction = 1;
+       ^
+../src/UC-Week1.c:30:7: warning: unused variable 'rgb' [-Wunused-variable]
+  char rgb = 0x7;
+       ^
+../src/UC-Week1.c:29:7: warning: unused variable 'lightsState' [-Wunused-variable]
+  char lightsState = 0xFF;
+       ^
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/buttons.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/buttons.d" -MT"src/buttons.d" -o "src/buttons.o" "../src/buttons.c"
+../src/buttons.c: In function 'initButtons':
+../src/buttons.c:10:3: error: 'dir' undeclared (first use in this function)
+  *dir = GPIO_3_DIR;
+   ^
+../src/buttons.c:10:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/buttons.c: In function 'readButtons':
+../src/buttons.c:15:3: error: 'data' undeclared (first use in this function)
+  *data = GPIO_3_DATA;
+   ^
+make: *** [src/buttons.o] Error 1
+22:54:10 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/buttons.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/buttons.d" -MT"src/buttons.d" -o "src/buttons.o" "../src/buttons.c"
+Finished building: ../src/buttons.c
+ 
+Building file: ../src/cr_startup_lpc13xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc13xx.d" -MT"src/cr_startup_lpc13xx.d" -o "src/cr_startup_lpc13xx.o" "../src/cr_startup_lpc13xx.c"
+Finished building: ../src/cr_startup_lpc13xx.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+../src/leds.c: In function 'toggleRGB':
+../src/leds.c:38:2: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if (rgb & 1 == 1) {
+  ^
+../src/leds.c:41:2: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if (rgb & (1 << 1) == 1) {
+  ^
+../src/leds.c:44:2: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if (rgb & (1 << 2) == 1) {
+  ^
+Finished building: ../src/leds.c
+ 
+Building file: ../src/util.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/util.d" -MT"src/util.d" -o "src/util.o" "../src/util.c"
+../src/util.c: In function 'delay':
+../src/util.c:13:3: warning: implicit declaration of function 'asm' [-Wimplicit-function-declaration]
+   asm("nop");
+   ^
+Finished building: ../src/util.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+./src/util.o: In function `delay':
+F:\UC\UC-Week1\Debug/../src/util.c:13: undefined reference to `asm'
+collect2.exe: error: ld returned 1 exit status
+make: *** [UC-Week1.axf] Error 1
+22:56:22 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/util.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/util.d" -MT"src/util.d" -o "src/util.o" "../src/util.c"
+Finished building: ../src/util.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    620	      0	      0	    620	    26c	UC-Week1.axf
+ 
+22:56:39 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+22:57:18 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:32:7: warning: unused variable 'currentLed' [-Wunused-variable]
+  char currentLed = 0;
+       ^
+../src/UC-Week1.c:31:7: warning: unused variable 'direction' [-Wunused-variable]
+  char direction = 1;
+       ^
+../src/UC-Week1.c:30:7: warning: unused variable 'rgb' [-Wunused-variable]
+  char rgb = 0x7;
+       ^
+../src/UC-Week1.c:29:7: warning: unused variable 'lightsState' [-Wunused-variable]
+  char lightsState = 0xFF;
+       ^
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    612	      0	      0	    612	    264	UC-Week1.axf
+ 
+22:59:24 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:39:7: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+       setLeds(0xFFFF);
+       ^
+../src/UC-Week1.c:32:7: warning: unused variable 'currentLed' [-Wunused-variable]
+  char currentLed = 0;
+       ^
+../src/UC-Week1.c:31:7: warning: unused variable 'direction' [-Wunused-variable]
+  char direction = 1;
+       ^
+../src/UC-Week1.c:30:7: warning: unused variable 'rgb' [-Wunused-variable]
+  char rgb = 0x7;
+       ^
+../src/UC-Week1.c:29:7: warning: unused variable 'lightsState' [-Wunused-variable]
+  char lightsState = 0xFF;
+       ^
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    656	      0	      0	    656	    290	UC-Week1.axf
+ 
+23:01:05 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:32:7: warning: unused variable 'currentLed' [-Wunused-variable]
+  char currentLed = 0;
+       ^
+../src/UC-Week1.c:31:7: warning: unused variable 'direction' [-Wunused-variable]
+  char direction = 1;
+       ^
+../src/UC-Week1.c:30:7: warning: unused variable 'rgb' [-Wunused-variable]
+  char rgb = 0x7;
+       ^
+../src/UC-Week1.c:29:7: warning: unused variable 'lightsState' [-Wunused-variable]
+  char lightsState = 0xFF;
+       ^
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    652	      0	      0	    652	    28c	UC-Week1.axf
+ 
+23:04:21 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/buttons.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/buttons.d" -MT"src/buttons.d" -o "src/buttons.o" "../src/buttons.c"
+Finished building: ../src/buttons.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    664	      0	      0	    664	    298	UC-Week1.axf
+ 
+23:04:44 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+23:22:26 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:32:7: warning: unused variable 'currentLed' [-Wunused-variable]
+  char currentLed = 0;
+       ^
+../src/UC-Week1.c:31:7: warning: unused variable 'direction' [-Wunused-variable]
+  char direction = 1;
+       ^
+../src/UC-Week1.c:30:7: warning: unused variable 'rgb' [-Wunused-variable]
+  char rgb = 0x7;
+       ^
+../src/UC-Week1.c:29:7: warning: unused variable 'lightsState' [-Wunused-variable]
+  char lightsState = 0xFF;
+       ^
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    628	      0	      0	    628	    274	UC-Week1.axf
+ 
+23:23:49 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+23:28:39 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/buttons.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/buttons.d" -MT"src/buttons.d" -o "src/buttons.o" "../src/buttons.c"
+Finished building: ../src/buttons.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    632	      0	      0	    632	    278	UC-Week1.axf
+ 
+23:29:13 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+23:34:26 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/buttons.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/buttons.d" -MT"src/buttons.d" -o "src/buttons.o" "../src/buttons.c"
+../src/buttons.c: In function 'readButtons':
+../src/buttons.c:16:23: error: invalid operands to binary & (have 'unsigned int *' and 'int')
+  return ~(GPIO_3_DATA & 0xF);
+                       ^
+../src/buttons.c:15:16: warning: unused variable 'data' [-Wunused-variable]
+  unsigned int *data = GPIO_3_DATA;
+                ^
+../src/buttons.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/buttons.o] Error 1
+23:34:56 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/buttons.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/buttons.d" -MT"src/buttons.d" -o "src/buttons.o" "../src/buttons.c"
+../src/buttons.c: In function 'readButtons':
+../src/buttons.c:16:23: error: invalid operands to binary & (have 'unsigned int *' and 'int')
+  return ~(GPIO_3_DATA & 0xF);
+                       ^
+../src/buttons.c:15:16: warning: unused variable 'data' [-Wunused-variable]
+  unsigned int *data = GPIO_3_DATA;
+                ^
+../src/buttons.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/buttons.o] Error 1
+23:35:20 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/buttons.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/buttons.d" -MT"src/buttons.d" -o "src/buttons.o" "../src/buttons.c"
+../src/buttons.c: In function 'readButtons':
+../src/buttons.c:16:23: error: invalid operands to binary & (have 'unsigned int *' and 'unsigned int')
+  return ~(GPIO_3_DATA & (unsigned int) 0xF);
+                       ^
+../src/buttons.c:15:16: warning: unused variable 'data' [-Wunused-variable]
+  unsigned int *data = GPIO_3_DATA;
+                ^
+../src/buttons.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/buttons.o] Error 1
+23:36:15 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/buttons.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/buttons.d" -MT"src/buttons.d" -o "src/buttons.o" "../src/buttons.c"
+../src/buttons.c: In function 'readButtons':
+../src/buttons.c:16:29: error: invalid operands to binary & (have 'unsigned int *' and 'int')
+  char buttons = GPIO_3_DATA & 0xF;
+                             ^
+../src/buttons.c:15:16: warning: unused variable 'data' [-Wunused-variable]
+  unsigned int *data = GPIO_3_DATA;
+                ^
+make: *** [src/buttons.o] Error 1
+23:36:33 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/buttons.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/buttons.d" -MT"src/buttons.d" -o "src/buttons.o" "../src/buttons.c"
+Finished building: ../src/buttons.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    632	      0	      0	    632	    278	UC-Week1.axf
+ 
+23:37:00 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+23:37:22 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+23:40:02 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+../src/leds.c: In function 'toggleRGB':
+../src/leds.c:38:2: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+  if (rgb | 0 == 0) {
+  ^
+../src/leds.c:41:2: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+  if (rgb | (1 << 1) == 0) {
+  ^
+../src/leds.c:44:2: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+  if (rgb | (1 << 2) == 0) {
+  ^
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    648	      0	      0	    648	    288	UC-Week1.axf
+ 
+23:40:27 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+23:48:25 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    612	      0	      0	    612	    264	UC-Week1.axf
+ 
+23:50:23 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    628	      0	      0	    628	    274	UC-Week1.axf
+ 
+23:55:53 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    628	      0	      0	    628	    274	UC-Week1.axf
+ 
+23:56:53 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:32:7: warning: unused variable 'currentLed' [-Wunused-variable]
+  char currentLed = 0;
+       ^
+../src/UC-Week1.c:31:7: warning: unused variable 'direction' [-Wunused-variable]
+  char direction = 1;
+       ^
+../src/UC-Week1.c:30:7: warning: unused variable 'rgb' [-Wunused-variable]
+  char rgb = 0x7;
+       ^
+../src/UC-Week1.c:29:7: warning: unused variable 'lightsState' [-Wunused-variable]
+  char lightsState = 0xFF;
+       ^
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    624	      0	      0	    624	    270	UC-Week1.axf
+ 
+23:57:34 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:32:7: warning: unused variable 'currentLed' [-Wunused-variable]
+  char currentLed = 0;
+       ^
+../src/UC-Week1.c:31:7: warning: unused variable 'direction' [-Wunused-variable]
+  char direction = 1;
+       ^
+../src/UC-Week1.c:30:7: warning: unused variable 'rgb' [-Wunused-variable]
+  char rgb = 0x7;
+       ^
+../src/UC-Week1.c:29:7: warning: unused variable 'lightsState' [-Wunused-variable]
+  char lightsState = 0xFF;
+       ^
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    624	      0	      0	    624	    270	UC-Week1.axf
+ 
+00:05:38 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:42:6: error: too few arguments to function 'handleLeds'
+      handleLeds(buttons);
+      ^
+../src/UC-Week1.c:25:6: note: declared here
+ void handleLeds (char buttons, char direction) {
+      ^
+../src/UC-Week1.c:36:7: warning: unused variable 'currentLed' [-Wunused-variable]
+  char currentLed = 0;
+       ^
+../src/UC-Week1.c:35:7: warning: unused variable 'direction' [-Wunused-variable]
+  char direction = 1;
+       ^
+../src/UC-Week1.c:34:7: warning: unused variable 'rgb' [-Wunused-variable]
+  char rgb = 0x7;
+       ^
+../src/UC-Week1.c:33:7: warning: unused variable 'lightsState' [-Wunused-variable]
+  char lightsState = 0xFF;
+       ^
+make: *** [src/UC-Week1.o] Error 1
+00:06:14 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:36:7: warning: unused variable 'currentLed' [-Wunused-variable]
+  char currentLed = 0;
+       ^
+../src/UC-Week1.c:34:7: warning: unused variable 'rgb' [-Wunused-variable]
+  char rgb = 0x7;
+       ^
+../src/UC-Week1.c:33:7: warning: unused variable 'lightsState' [-Wunused-variable]
+  char lightsState = 0xFF;
+       ^
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    660	      0	      0	    660	    294	UC-Week1.axf
+ 
+00:15:40 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:39:6: warning: implicit declaration of function 'incrementLeds' [-Wimplicit-function-declaration]
+      incrementLeds(direction, currentLed);
+      ^
+../src/UC-Week1.c:26:7: warning: unused variable 'rgb' [-Wunused-variable]
+  char rgb = 0x7;
+       ^
+../src/UC-Week1.c:25:7: warning: unused variable 'lightsState' [-Wunused-variable]
+  char lightsState = 0xFF;
+       ^
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    672	      0	      0	    672	    2a0	UC-Week1.axf
+ 
+00:17:56 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    680	      0	      0	    680	    2a8	UC-Week1.axf
+ 
+00:20:56 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    668	      0	      0	    668	    29c	UC-Week1.axf
+ 
+00:26:22 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    688	      0	      0	    688	    2b0	UC-Week1.axf
+ 
+00:27:26 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    684	      0	      0	    684	    2ac	UC-Week1.axf
+ 
+00:40:45 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+../src/leds.c: In function 'incrementLeds':
+../src/leds.c:46:34: error: lvalue required as left operand of assignment
+   *data |= ~(0x01FE & currentLed = 1 << currentLed);
+                                  ^
+../src/leds.c:48:34: error: lvalue required as left operand of assignment
+   *data |= ~(0x01FE & currentLed = 1 >> currentLed);
+                                  ^
+make: *** [src/leds.o] Error 1
+00:41:19 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    684	      0	      0	    684	    2ac	UC-Week1.axf
+ 
+00:50:56 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    684	      0	      0	    684	    2ac	UC-Week1.axf
+ 
+00:51:28 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+00:57:14 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    684	      0	      0	    684	    2ac	UC-Week1.axf
+ 
+00:57:46 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+01:10:20 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    684	      0	      0	    684	    2ac	UC-Week1.axf
+ 
+01:16:54 **** Clean-only build of configuration Debug for project UC-Week1 ****
+make clean 
+rm -rf  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o  ./src/UC-Week1.d ./src/buttons.d ./src/cr_startup_lpc13xx.d ./src/crp.d ./src/leds.d ./src/util.d  UC-Week1.axf
+rm: cannot unlink `UC-Week1.axf': Permission denied
+make: [clean] Error 1 (ignored)
+ 
+01:16:58 **** Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/buttons.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/buttons.d" -MT"src/buttons.d" -o "src/buttons.o" "../src/buttons.c"
+Finished building: ../src/buttons.c
+ 
+Building file: ../src/cr_startup_lpc13xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc13xx.d" -MT"src/cr_startup_lpc13xx.d" -o "src/cr_startup_lpc13xx.o" "../src/cr_startup_lpc13xx.c"
+Finished building: ../src/cr_startup_lpc13xx.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building file: ../src/util.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/util.d" -MT"src/util.d" -o "src/util.o" "../src/util.c"
+Finished building: ../src/util.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    692	      0	      0	    692	    2b4	UC-Week1.axf
+ 
+01:20:39 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    684	      0	      0	    684	    2ac	UC-Week1.axf
+ 
+01:21:13 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+01:22:54 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    684	      0	      0	    684	    2ac	UC-Week1.axf
+ 
+01:23:23 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+01:29:35 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:37:6: warning: passing argument 2 of 'incrementLeds' makes integer from pointer without a cast [enabled by default]
+      incrementLeds(direction, &currentLed);
+      ^
+In file included from ../src/UC-Week1.c:16:0:
+../src/leds.h:6:6: note: expected 'char' but argument is of type 'char *'
+ void incrementLeds(char direction,char currentLed);
+      ^
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+../src/leds.c: In function 'incrementLeds':
+../src/leds.c:47:3: warning: value computed is not used [-Wunused-value]
+   *currentLed--;
+   ^
+../src/leds.c:50:3: warning: value computed is not used [-Wunused-value]
+   *currentLed++;
+   ^
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    724	      0	      0	    724	    2d4	UC-Week1.axf
+ 
+01:31:45 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    736	      0	      0	    736	    2e0	UC-Week1.axf
+ 
+01:32:28 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+01:47:36 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    736	      0	      0	    736	    2e0	UC-Week1.axf
+ 
+01:48:44 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:32:39: warning: comparison between pointer and integer [enabled by default]
+      if (direction == 1 && currentLed == 7) {
+                                       ^
+../src/UC-Week1.c:37:6: warning: passing argument 2 of 'incrementLeds' makes integer from pointer without a cast [enabled by default]
+      incrementLeds(direction, &currentLed);
+      ^
+In file included from ../src/UC-Week1.c:16:0:
+../src/leds.h:6:6: note: expected 'char' but argument is of type 'char **'
+ void incrementLeds(char direction,char currentLed);
+      ^
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    732	      0	      0	    732	    2dc	UC-Week1.axf
+ 
+01:55:52 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:32:28: error: invalid type argument of unary '*' (have 'int')
+      if (direction == 1 && *currentLed == 7) {
+                            ^
+../src/UC-Week1.c:34:35: error: invalid type argument of unary '*' (have 'int')
+      } else if (direction == 0 && *currentLed == 0) {
+                                   ^
+make: *** [src/UC-Week1.o] Error 1
+01:56:14 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    736	      0	      0	    736	    2e0	UC-Week1.axf
+ 
+01:56:45 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+01:58:14 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    744	      0	      0	    744	    2e8	UC-Week1.axf
+ 
+01:58:56 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    744	      0	      0	    744	    2e8	UC-Week1.axf
+ 
+02:00:53 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    744	      0	      0	    744	    2e8	UC-Week1.axf
+ 
+02:02:37 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    744	      0	      0	    744	    2e8	UC-Week1.axf
+ 
+02:07:25 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    748	      0	      0	    748	    2ec	UC-Week1.axf
+ 
+02:07:51 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+02:09:16 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:37:6: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+      if (buttons & (1 << 4) == 1) {
+      ^
+../src/UC-Week1.c:38:7: warning: statement with no effect [-Wunused-value]
+       direction != direction;
+       ^
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    748	      0	      0	    748	    2ec	UC-Week1.axf
+ 
+02:10:30 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    748	      0	      0	    748	    2ec	UC-Week1.axf
+ 
+02:15:07 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    748	      0	      0	    748	    2ec	UC-Week1.axf
+ 
+02:15:34 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+make: Nothing to be done for `all'.
+02:17:42 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    748	      0	      0	    748	    2ec	UC-Week1.axf
+ 
+02:22:36 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    744	      0	      0	    744	    2e8	UC-Week1.axf
+ 
+02:23:58 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    744	      0	      0	    744	    2e8	UC-Week1.axf
+ 
+02:25:08 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+../src/UC-Week1.c: In function 'main':
+../src/UC-Week1.c:32:6: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+      if (buttons & 0x8 == 1) {
+      ^
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    744	      0	      0	    744	    2e8	UC-Week1.axf
+ 
+02:27:46 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    764	      0	      0	    764	    2fc	UC-Week1.axf
+ 
+02:28:51 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    764	      0	      0	    764	    2fc	UC-Week1.axf
+ 
+02:29:21 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    764	      0	      0	    764	    2fc	UC-Week1.axf
+ 
+02:30:25 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    764	      0	      0	    764	    2fc	UC-Week1.axf
+ 
+02:31:32 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+../src/leds.c: In function 'kitt':
+../src/leds.c:65:2: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  char delayTime = 1000000;
+  ^
+Finished building: ../src/leds.c
+ 
+Building file: ../src/util.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/util.d" -MT"src/util.d" -o "src/util.o" "../src/util.c"
+Finished building: ../src/util.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    760	      0	      0	    760	    2f8	UC-Week1.axf
+ 
+02:32:00 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    760	      0	      0	    760	    2f8	UC-Week1.axf
+ 
+02:32:28 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    756	      0	      0	    756	    2f4	UC-Week1.axf
+ 
+02:33:18 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    760	      0	      0	    760	    2f8	UC-Week1.axf
+ 

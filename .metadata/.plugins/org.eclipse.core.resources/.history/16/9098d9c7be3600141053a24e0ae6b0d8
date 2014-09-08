@@ -1,0 +1,14 @@
+/*
+ * leds.h
+ *
+ *  Created on: 5 sep. 2014
+ *      Author: Martijn
+ */
+
+#ifndef LEDS_H_
+#define LEDS_H_
+
+void initLeds();
+void shineOnMe();
+
+#endif /* LEDS_H_ */

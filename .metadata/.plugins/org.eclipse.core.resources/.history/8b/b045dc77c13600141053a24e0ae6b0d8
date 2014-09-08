@@ -1,0 +1,13 @@
+/*
+ * util.h
+ *
+ *  Created on: 5 sep. 2014
+ *      Author: Martijn
+ */
+
+#ifndef UTIL_H_
+#define UTIL_H_
+
+void delay(int noops);
+
+#endif /* UTIL_H_ */

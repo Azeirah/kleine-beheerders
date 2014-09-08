@@ -1,0 +1,38 @@
+/*
+===============================================================================
+ Name        : UC-Week1.c
+ Author      : $(author)
+ Version     :
+ Copyright   : $(copyright)
+ Description : main definition
+===============================================================================
+*/
+
+#ifdef __USE_CMSIS
+#include <stdint.h>
+#include "LPC13xx.h"
+#include "leds.h"
+#include "buttons.h"
+#endif
+
+#include <cr_section_macros.h>
+
+void handleRGB (uint8_t buttons) {
+	toggleRGB(buttons >> 1);
+}
+
+int main(void) {
+	initLeds();
+	initButtons();
+
+	uint8_t lightsState = 0xFF;
+	uint8_t rgb = 0x7;
+	uint8_t direction = 1;
+	uint8_t currentLed = 0;
+
+    while(1) {
+    	handleRGB(readButtons);
+    	delay(1);
+    }
+    return 0 ;
+}

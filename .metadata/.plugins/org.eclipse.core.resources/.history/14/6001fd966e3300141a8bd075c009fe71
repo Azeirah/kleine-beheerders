@@ -1,0 +1,12 @@
+/*
+ * main.c
+ *
+ *  Created on: 3 Sep 2014
+ *      Author: MB
+ */
+
+int main () {
+	test();
+
+	return 0;
+}

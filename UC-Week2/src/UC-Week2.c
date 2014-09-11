@@ -12,21 +12,29 @@
 #include "LPC13xx.h"
 #endif
 
+#include "timer.h"
+#include "leds.h"
 #include <cr_section_macros.h>
+
+#define CHECK_BIT(var,pos) ((var) & (1<<(pos)))
 
 // TODO: insert other include files here
 
 // TODO: insert other definitions and declarations here
 
 int main(void) {
+	unsigned short timerValue;
 
-    // TODO: insert code here
+	initLeds();
+	initTimer();
 
-    // Force the counter to be placed into memory
-    volatile static int i = 0 ;
-    // Enter an infinite loop, just incrementing a counter
     while(1) {
-        i++ ;
+    	timerValue = timerRead();
+    	if (CHECK_BIT(timerValue, 15)) {
+    		setLeds(0xFF);
+    	} else {
+    		setLeds(0x00);
+    	}
     }
     return 0 ;
 }

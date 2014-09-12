@@ -1,0 +1,36 @@
+/*
+ * timer.c
+ *
+ *  Created on: 11 Sep 2014
+ *      Author: MB
+ */
+
+# define SYSAHBCLKCTRL (* (unsigned int *) 0x40048080)
+# define TMR16B0TCR    (* (unsigned int* ) 0x4000C004)
+# define TMR16B0TC     (* (unsigned int* ) 0x4000C008)
+# define TMR16B0PR     (* (unsigned int* ) 0x4000C00C)
+
+// Timer Control Register
+// bit 0 = counter enable, zet hoog om te enabled
+// bit 1 = reset... nog niet iets mee doen.
+
+
+void timerInit() {
+	// enable timer clock in component clocks register
+	SYSAHBCLKCTRL |= 1 << 7;
+
+	// enable timer counter
+	TMR16B0TCR |= 1;
+	// ensure reset is off
+	TMR16B0TCR &= ~2;
+
+	configurePrescaler();
+}
+
+unsigned int timerRead() {
+	return TMR16B0TC;
+}
+
+void configurePrescaler(unsigned int configuration) {
+	// is 16-bit, dus max 65,536 clock pulsen per timer counter increment
+}

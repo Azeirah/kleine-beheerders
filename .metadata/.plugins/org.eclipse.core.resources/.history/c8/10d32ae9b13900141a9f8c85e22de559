@@ -1,0 +1,15 @@
+/*
+ * timer.c
+ *
+ *  Created on: 11 Sep 2014
+ *      Author: MB
+ */
+
+# define SYSAHBCLKCTRL
+# define TMR16B0TCR
+# define TMR16B0TC
+# define TMR16B0PR
+
+void enableClock() {
+
+}

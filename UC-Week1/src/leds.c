@@ -63,7 +63,7 @@ void toggleLeds(char leds, char direction)
 void kitt()
 {
 	char i;
-	char delayTime = 1000000;
+	unsigned char delayTime = 1000000;
 	for (i = 0; i < 8; i++) {
 		setLeds(i);
 		delay(delayTime);

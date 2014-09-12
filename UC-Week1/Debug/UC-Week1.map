@@ -253,12 +253,12 @@ OUTPUT(UC-Week1.axf elf32-littlearm)
  .debug_abbrev  0x00000297      0x10d ./src/leds.o
  .debug_abbrev  0x000003a4       0x5a ./src/util.o
 
-.debug_loc      0x00000000      0x38b
- .debug_loc     0x00000000       0x60 ./src/UC-Week1.o
- .debug_loc     0x00000060       0x23 ./src/buttons.o
- .debug_loc     0x00000083      0x1d1 ./src/cr_startup_lpc13xx.o
- .debug_loc     0x00000254      0x118 ./src/leds.o
- .debug_loc     0x0000036c       0x1f ./src/util.o
+.debug_loc      0x00000000      0x37e
+ .debug_loc     0x00000000       0x53 ./src/UC-Week1.o
+ .debug_loc     0x00000053       0x23 ./src/buttons.o
+ .debug_loc     0x00000076      0x1d1 ./src/cr_startup_lpc13xx.o
+ .debug_loc     0x00000247      0x118 ./src/leds.o
+ .debug_loc     0x0000035f       0x1f ./src/util.o
 
 .debug_aranges  0x00000000      0x140
  .debug_aranges
@@ -298,16 +298,16 @@ OUTPUT(UC-Week1.axf elf32-littlearm)
  .debug_line    0x00000348      0x1af ./src/leds.o
  .debug_line    0x000004f7       0x50 ./src/util.o
 
-.debug_str      0x00000000     0x4256
- .debug_str     0x00000000     0x3f68 ./src/UC-Week1.o
-                               0x3feb (size before relaxing)
- .debug_str     0x00003f68       0x67 ./src/buttons.o
+.debug_str      0x00000000     0x429a
+ .debug_str     0x00000000     0x3f97 ./src/UC-Week1.o
+                               0x401a (size before relaxing)
+ .debug_str     0x00003f97       0x7c ./src/buttons.o
                                0x3b89 (size before relaxing)
- .debug_str     0x00003fcf      0x1cf ./src/cr_startup_lpc13xx.o
+ .debug_str     0x00004013      0x1cf ./src/cr_startup_lpc13xx.o
                                0x25b3 (size before relaxing)
- .debug_str     0x0000419e       0xa4 ./src/leds.o
-                               0x3bec (size before relaxing)
- .debug_str     0x00004242       0x14 ./src/util.o
+ .debug_str     0x000041e2       0xa4 ./src/leds.o
+                               0x3c1b (size before relaxing)
+ .debug_str     0x00004286       0x14 ./src/util.o
                                0x23eb (size before relaxing)
 
 .comment        0x00000000       0x70

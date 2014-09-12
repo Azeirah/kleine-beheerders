@@ -1,9 +1,13 @@
-02:33:18 **** Incremental Build of configuration Debug for project UC-Week1 ****
+14:19:32 **** Incremental Build of configuration Debug for project UC-Week1 ****
 make all 
-Building file: ../src/UC-Week1.c
+Building file: ../src/leds.c
 Invoking: MCU C Compiler
-arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
-Finished building: ../src/UC-Week1.c
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+../src/leds.c: In function 'kitt':
+../src/leds.c:66:2: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  unsigned char delayTime = 1000000;
+  ^
+Finished building: ../src/leds.c
  
 Building target: UC-Week1.axf
 Invoking: MCU Linker
@@ -17,5 +21,5 @@ arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week
     760	      0	      0	    760	    2f8	UC-Week1.axf
  
 
-02:33:24 Build Finished (took 6s.703ms)
+14:19:34 Build Finished (took 2s.1ms)
 

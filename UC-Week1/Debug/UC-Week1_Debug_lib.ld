@@ -4,7 +4,7 @@
  * (c) NXP Semiconductors 2013-2014
  * Generated linker script file for LPC1343
  * Created from LibIncTemplate.ld (LPCXpresso v7.2 (0 [Build 153] [2014-05-19] ))
- * By LPCXpresso v7.2.0 [Build 153] [2014-05-19]  on Mon Sep 08 02:33:17 BST 2014
+ * By LPCXpresso v7.2.0 [Build 153] [2014-05-19]  on Thu Sep 11 14:19:31 BST 2014
  */
 
 

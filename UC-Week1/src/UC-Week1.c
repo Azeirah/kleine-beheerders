@@ -20,18 +20,18 @@
 #include <cr_section_macros.h>
 
 int main(void) {
-	initLeds();
-	initButtons();
-
 	char direction = 1;
 	char currentLed = 0;
 	char buttons = readButtons();
+
+	initLeds();
+	initButtons();
 
     while(1) {
     	buttons = readButtons();
     	toggleRGB(buttons & 0x0F);
     	if (CHECK_BIT(buttons, 3)) {
-    		direction = direction == 1 ? 0 : 1;
+    		direction = !direction;
     	}
     	if (direction == 1 && currentLed == 7) {
     		direction = 0;

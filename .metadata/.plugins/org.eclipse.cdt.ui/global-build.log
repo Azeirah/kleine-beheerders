@@ -2427,3 +2427,202 @@ arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week
    text	   data	    bss	    dec	    hex	filename
     760	      0	      0	    760	    2f8	UC-Week1.axf
  
+14:18:52 **** Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/UC-Week1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week1.d" -MT"src/UC-Week1.d" -o "src/UC-Week1.o" "../src/UC-Week1.c"
+Finished building: ../src/UC-Week1.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+../src/leds.c: In function 'kitt':
+../src/leds.c:66:2: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  char delayTime = 1000000;
+  ^
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    760	      0	      0	    760	    2f8	UC-Week1.axf
+ 
+14:19:32 **** Incremental Build of configuration Debug for project UC-Week1 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+../src/leds.c: In function 'kitt':
+../src/leds.c:66:2: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  unsigned char delayTime = 1000000;
+  ^
+Finished building: ../src/leds.c
+ 
+Building target: UC-Week1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week1_Debug.ld" -o "UC-Week1.axf"  ./src/UC-Week1.o ./src/buttons.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/util.o   
+Finished building target: UC-Week1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week1.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week1.axf" "UC-Week1.bin" ; # checksum -p LPC1343 -d "UC-Week1.bin";
+   text	   data	    bss	    dec	    hex	filename
+    760	      0	      0	    760	    2f8	UC-Week1.axf
+ 
+14:20:09 **** Build of configuration Debug for project UC-Week2 ****
+make all 
+Building file: ../src/UC-Week2.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week2.d" -MT"src/UC-Week2.d" -o "src/UC-Week2.o" "../src/UC-Week2.c"
+../src/UC-Week2.c: In function 'main':
+../src/UC-Week2.c:29:2: warning: implicit declaration of function 'initTimer' [-Wimplicit-function-declaration]
+  initTimer();
+  ^
+Finished building: ../src/UC-Week2.c
+ 
+Building file: ../src/cr_startup_lpc13xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc13xx.d" -MT"src/cr_startup_lpc13xx.d" -o "src/cr_startup_lpc13xx.o" "../src/cr_startup_lpc13xx.c"
+Finished building: ../src/cr_startup_lpc13xx.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+../src/leds.c:7:18: fatal error: util.h: No such file or directory
+ #include "util.h"
+                  ^
+compilation terminated.
+make: *** [src/leds.o] Error 1
+14:20:38 **** Incremental Build of configuration Debug for project UC-Week2 ****
+make all 
+Building file: ../src/leds.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/leds.d" -MT"src/leds.d" -o "src/leds.o" "../src/leds.c"
+../src/leds.c: In function 'kitt':
+../src/leds.c:66:2: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  char delayTime = 1000000;
+  ^
+Finished building: ../src/leds.c
+ 
+Building file: ../src/timer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/timer.d" -MT"src/timer.d" -o "src/timer.o" "../src/timer.c"
+../src/timer.c: In function 'timerInit':
+../src/timer.c:28:2: warning: implicit declaration of function 'configurePrescaler' [-Wimplicit-function-declaration]
+  configurePrescaler(PRESCALE_VALUE);
+  ^
+../src/timer.c: At top level:
+../src/timer.c:35:6: warning: conflicting types for 'configurePrescaler' [enabled by default]
+ void configurePrescaler(unsigned int configuration) {
+      ^
+../src/timer.c:28:2: note: previous implicit declaration of 'configurePrescaler' was here
+  configurePrescaler(PRESCALE_VALUE);
+  ^
+Finished building: ../src/timer.c
+ 
+Building file: ../src/util.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/util.d" -MT"src/util.d" -o "src/util.o" "../src/util.c"
+Finished building: ../src/util.c
+ 
+Building target: UC-Week2.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week2.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week2_Debug.ld" -o "UC-Week2.axf"  ./src/UC-Week2.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/timer.o ./src/util.o   
+./src/UC-Week2.o: In function `main':
+C:\Users\MB\Documents\LPCXpresso_7.2.0_153\workspace\UC-Week2\Debug/../src/UC-Week2.c:29: undefined reference to `initTimer'
+collect2.exe: error: ld returned 1 exit status
+make: *** [UC-Week2.axf] Error 1
+14:21:00 **** Incremental Build of configuration Debug for project UC-Week2 ****
+make all 
+Building file: ../src/timer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/timer.d" -MT"src/timer.d" -o "src/timer.o" "../src/timer.c"
+../src/timer.c: In function 'initTimer':
+../src/timer.c:28:2: warning: implicit declaration of function 'configurePrescaler' [-Wimplicit-function-declaration]
+  configurePrescaler(PRESCALE_VALUE);
+  ^
+../src/timer.c: At top level:
+../src/timer.c:35:6: warning: conflicting types for 'configurePrescaler' [enabled by default]
+ void configurePrescaler(unsigned int configuration) {
+      ^
+../src/timer.c:28:2: note: previous implicit declaration of 'configurePrescaler' was here
+  configurePrescaler(PRESCALE_VALUE);
+  ^
+Finished building: ../src/timer.c
+ 
+Building target: UC-Week2.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week2.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week2_Debug.ld" -o "UC-Week2.axf"  ./src/UC-Week2.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/timer.o ./src/util.o   
+Finished building target: UC-Week2.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week2.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week2.axf" "UC-Week2.bin" ; # checksum -p LPC1343 -d "UC-Week2.bin";
+   text	   data	    bss	    dec	    hex	filename
+    628	      0	      0	    628	    274	UC-Week2.axf
+ 
+14:21:15 **** Incremental Build of configuration Debug for project UC-Week2 ****
+make all 
+make: Nothing to be done for `all'.
+14:21:56 **** Incremental Build of configuration Debug for project UC-Week2 ****
+make all 
+Building file: ../src/UC-Week2.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UC-Week2.d" -MT"src/UC-Week2.d" -o "src/UC-Week2.o" "../src/UC-Week2.c"
+Finished building: ../src/UC-Week2.c
+ 
+Building target: UC-Week2.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week2.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week2_Debug.ld" -o "UC-Week2.axf"  ./src/UC-Week2.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/timer.o ./src/util.o   
+Finished building target: UC-Week2.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week2.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week2.axf" "UC-Week2.bin" ; # checksum -p LPC1343 -d "UC-Week2.bin";
+   text	   data	    bss	    dec	    hex	filename
+    632	      0	      0	    632	    278	UC-Week2.axf
+ 
+14:22:39 **** Incremental Build of configuration Debug for project UC-Week2 ****
+make all 
+make: Nothing to be done for `all'.
+14:24:01 **** Incremental Build of configuration Debug for project UC-Week2 ****
+make all 
+Building file: ../src/timer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC13XX__ -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/timer.d" -MT"src/timer.d" -o "src/timer.o" "../src/timer.c"
+../src/timer.c: In function 'initTimer':
+../src/timer.c:28:2: warning: implicit declaration of function 'configurePrescaler' [-Wimplicit-function-declaration]
+  configurePrescaler(PRESCALE_VALUE);
+  ^
+../src/timer.c: At top level:
+../src/timer.c:35:6: warning: conflicting types for 'configurePrescaler' [enabled by default]
+ void configurePrescaler(unsigned int configuration) {
+      ^
+../src/timer.c:28:2: note: previous implicit declaration of 'configurePrescaler' was here
+  configurePrescaler(PRESCALE_VALUE);
+  ^
+Finished building: ../src/timer.c
+ 
+Building target: UC-Week2.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="UC-Week2.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UC-Week2_Debug.ld" -o "UC-Week2.axf"  ./src/UC-Week2.o ./src/cr_startup_lpc13xx.o ./src/crp.o ./src/leds.o ./src/timer.o ./src/util.o   
+Finished building target: UC-Week2.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UC-Week2.axf"; # arm-none-eabi-objcopy -v -O binary "UC-Week2.axf" "UC-Week2.bin" ; # checksum -p LPC1343 -d "UC-Week2.bin";
+   text	   data	    bss	    dec	    hex	filename
+    632	      0	      0	    632	    278	UC-Week2.axf
+ 

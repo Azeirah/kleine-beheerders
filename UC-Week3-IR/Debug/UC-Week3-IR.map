@@ -1,0 +1,353 @@
+Archive member included because of file (symbol)
+
+c:/nxp/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc13xx.o (__main)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/UC-Week3-IR.o
+ .group         0x00000000        0x8 ./src/UC-Week3-IR.o
+ .text          0x00000000        0x0 ./src/UC-Week3-IR.o
+ .data          0x00000000        0x0 ./src/UC-Week3-IR.o
+ .bss           0x00000000        0x0 ./src/UC-Week3-IR.o
+ .group         0x00000000        0x8 ./src/cr_startup_lpc13xx.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc13xx.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc13xx.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc13xx.o
+ .debug_macro   0x00000000      0x862 ./src/cr_startup_lpc13xx.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .debug_macro   0x00000000      0x862 ./src/crp.o
+ .group         0x00000000        0x8 ./src/infrared.o
+ .text          0x00000000        0x0 ./src/infrared.o
+ .data          0x00000000        0x0 ./src/infrared.o
+ .bss           0x00000000        0x0 ./src/infrared.o
+ .debug_macro   0x00000000      0x862 ./src/infrared.o
+ .group         0x00000000        0x8 ./src/leds.o
+ .group         0x00000000        0x8 ./src/leds.o
+ .group         0x00000000        0x8 ./src/leds.o
+ .group         0x00000000        0x8 ./src/leds.o
+ .text          0x00000000        0x0 ./src/leds.o
+ .data          0x00000000        0x0 ./src/leds.o
+ .bss           0x00000000        0x0 ./src/leds.o
+ .text.ledsWriteRGB
+                0x00000000       0x14 ./src/leds.o
+ .text.toggleRGB
+                0x00000000       0x14 ./src/leds.o
+ .text.incrementLeds
+                0x00000000       0x48 ./src/leds.o
+ .text.toggleLeds
+                0x00000000       0x10 ./src/leds.o
+ .text.shineOnMe
+                0x00000000       0x10 ./src/leds.o
+ .debug_macro   0x00000000      0x862 ./src/leds.o
+ .group         0x00000000        0x8 ./src/timer.o
+ .text          0x00000000        0x0 ./src/timer.o
+ .data          0x00000000        0x0 ./src/timer.o
+ .bss           0x00000000        0x0 ./src/timer.o
+ .debug_macro   0x00000000      0x862 ./src/timer.o
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00000000         0x00008000         xr
+RamLoc8          0x10000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/UC-Week3-IR.o
+LOAD ./src/cr_startup_lpc13xx.o
+LOAD ./src/crp.o
+LOAD ./src/infrared.o
+LOAD ./src/leds.o
+LOAD ./src/timer.o
+START GROUP
+LOAD c:/nxp/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m\libcr_eabihelpers.a
+END GROUP
+                0x00008000                __top_MFlash32 = 0x8000
+                0x10002000                __top_RamLoc8 = 0x10002000
+
+.text           0x00000000      0x444
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x128 ./src/cr_startup_lpc13xx.o
+                0x00000000                g_pfnVectors
+                0x00000128                . = ALIGN (0x4)
+                0x00000128                __section_table_start = .
+                0x00000128                __data_section_table = .
+                0x00000128        0x4 LONG 0x444 LOADADDR (.data)
+                0x0000012c        0x4 LONG 0x10000000 ADDR (.data)
+                0x00000130        0x4 LONG 0x0 SIZEOF (.data)
+                0x00000134                __data_section_table_end = .
+                0x00000134                __bss_section_table = .
+                0x00000134        0x4 LONG 0x10000000 ADDR (.bss)
+                0x00000138        0x4 LONG 0x0 SIZEOF (.bss)
+                0x0000013c                __bss_section_table_end = .
+                0x0000013c                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x0000013c       0xa0 ./src/cr_startup_lpc13xx.o
+                0x0000013c                NMI_Handler
+                0x00000140                HardFault_Handler
+                0x00000144                MemManage_Handler
+                0x00000148                BusFault_Handler
+                0x0000014c                UsageFault_Handler
+                0x00000150                SVC_Handler
+                0x00000154                DebugMon_Handler
+                0x00000158                PendSV_Handler
+                0x0000015c                SysTick_Handler
+                0x00000160                TIMER32_1_IRQHandler
+                0x00000160                IntDefaultHandler
+                0x00000160                PIOINT1_IRQHandler
+                0x00000160                TIMER32_0_IRQHandler
+                0x00000160                UART_IRQHandler
+                0x00000160                PIOINT3_IRQHandler
+                0x00000160                TIMER16_1_IRQHandler
+                0x00000160                USB_FIQHandler
+                0x00000160                ADC_IRQHandler
+                0x00000160                SSP1_IRQHandler
+                0x00000160                PIOINT2_IRQHandler
+                0x00000160                USB_IRQHandler
+                0x00000160                BOD_IRQHandler
+                0x00000160                WAKEUP_IRQHandler
+                0x00000160                PIOINT0_IRQHandler
+                0x00000160                I2C_IRQHandler
+                0x00000160                SSP_IRQHandler
+                0x00000160                WDT_IRQHandler
+                0x00000160                TIMER16_0_IRQHandler
+                0x00000160                FMC_IRQHandler
+                0x00000164                data_init
+                0x00000180                bss_init
+                0x00000194                ResetISR
+                0x000002fc                . = 0x2fc
+ *fill*         0x000001dc      0x120 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.main     0x00000300       0x20 ./src/UC-Week3-IR.o
+                0x00000300                main
+ .text.initInfrared
+                0x00000320       0x10 ./src/infrared.o
+                0x00000320                initInfrared
+ .text.readIRBit
+                0x00000330       0x10 ./src/infrared.o
+                0x00000330                readIRBit
+ .text.blockUntilMessage
+                0x00000340       0x18 ./src/infrared.o
+                0x00000340                blockUntilMessage
+ .text.readInfraredMessage
+                0x00000358       0x38 ./src/infrared.o
+                0x00000358                readInfraredMessage
+ .text.getCommand
+                0x00000390        0x8 ./src/infrared.o
+                0x00000390                getCommand
+ .text.initLeds
+                0x00000398       0x1c ./src/leds.o
+                0x00000398                initLeds
+ .text.setLeds  0x000003b4       0x18 ./src/leds.o
+                0x000003b4                setLeds
+ .text.initTimer
+                0x000003cc       0x2c ./src/timer.o
+                0x000003cc                initTimer
+ .text.timerRead
+                0x000003f8        0xc ./src/timer.o
+                0x000003f8                timerRead
+ .text.resetTimer
+                0x00000404       0x18 ./src/timer.o
+                0x00000404                resetTimer
+ .text.delay    0x0000041c       0x24 ./src/timer.o
+                0x0000041c                delay
+ .text.__weak_main
+                0x00000440        0x4 c:/nxp/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x00000440                __weak_main
+                0x00000440                __main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x00000444                . = ALIGN (0x4)
+
+.glue_7         0x00000444        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000444        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000444        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000444        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00000444        0x0
+ .iplt          0x00000000        0x0 ./src/UC-Week3-IR.o
+
+.rel.dyn        0x00000444        0x0
+ .rel.iplt      0x00000000        0x0 ./src/UC-Week3-IR.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000444                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000444                __exidx_end = .
+                0x00000444                _etext = .
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x0 load address 0x00000444
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _edata = .
+
+.igot.plt       0x10000000        0x0 load address 0x00000444
+ .igot.plt      0x00000000        0x0 ./src/UC-Week3-IR.o
+
+.bss            0x10000000        0x0 load address 0x00000444
+                0x10000000                _bss = .
+ *(.bss*)
+ *(COMMON)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _ebss = .
+                0x10000000                PROVIDE (end, .)
+
+.noinit         0x10000000        0x0 load address 0x00000444
+                0x10000000                _noinit = .
+ *(.noinit*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_noinit = .
+                0x10000000                PROVIDE (_pvHeapStart, .)
+                0x10002000                PROVIDE (_vStackTop, (__top_RamLoc8 - 0x0))
+OUTPUT(UC-Week3-IR.axf elf32-littlearm)
+
+.debug_info     0x00000000      0x7b2
+ .debug_info    0x00000000       0xf5 ./src/UC-Week3-IR.o
+ .debug_info    0x000000f5      0x27c ./src/cr_startup_lpc13xx.o
+ .debug_info    0x00000371       0x3f ./src/crp.o
+ .debug_info    0x000003b0      0x14c ./src/infrared.o
+ .debug_info    0x000004fc      0x1f6 ./src/leds.o
+ .debug_info    0x000006f2       0xc0 ./src/timer.o
+
+.debug_abbrev   0x00000000      0x479
+ .debug_abbrev  0x00000000       0xb9 ./src/UC-Week3-IR.o
+ .debug_abbrev  0x000000b9      0x111 ./src/cr_startup_lpc13xx.o
+ .debug_abbrev  0x000001ca       0x36 ./src/crp.o
+ .debug_abbrev  0x00000200      0x11d ./src/infrared.o
+ .debug_abbrev  0x0000031d       0xc9 ./src/leds.o
+ .debug_abbrev  0x000003e6       0x93 ./src/timer.o
+
+.debug_aranges  0x00000000      0x180
+ .debug_aranges
+                0x00000000       0x20 ./src/UC-Week3-IR.o
+ .debug_aranges
+                0x00000020       0x80 ./src/cr_startup_lpc13xx.o
+ .debug_aranges
+                0x000000a0       0x18 ./src/crp.o
+ .debug_aranges
+                0x000000b8       0x40 ./src/infrared.o
+ .debug_aranges
+                0x000000f8       0x50 ./src/leds.o
+ .debug_aranges
+                0x00000148       0x38 ./src/timer.o
+
+.debug_ranges   0x00000000      0x130
+ .debug_ranges  0x00000000       0x10 ./src/UC-Week3-IR.o
+ .debug_ranges  0x00000010       0x70 ./src/cr_startup_lpc13xx.o
+ .debug_ranges  0x00000080       0x48 ./src/infrared.o
+ .debug_ranges  0x000000c8       0x40 ./src/leds.o
+ .debug_ranges  0x00000108       0x28 ./src/timer.o
+
+.debug_macro    0x00000000     0x1130
+ .debug_macro   0x00000000       0x26 ./src/UC-Week3-IR.o
+ .debug_macro   0x00000026      0x862 ./src/UC-Week3-IR.o
+ .debug_macro   0x00000888       0x82 ./src/UC-Week3-IR.o
+ .debug_macro   0x0000090a       0x1d ./src/cr_startup_lpc13xx.o
+ .debug_macro   0x00000927       0x1a ./src/crp.o
+ .debug_macro   0x00000941       0x34 ./src/crp.o
+ .debug_macro   0x00000975       0x3b ./src/infrared.o
+ .debug_macro   0x000009b0       0x48 ./src/leds.o
+ .debug_macro   0x000009f8       0x10 ./src/leds.o
+ .debug_macro   0x00000a08      0x122 ./src/leds.o
+ .debug_macro   0x00000b2a      0x5b9 ./src/leds.o
+ .debug_macro   0x000010e3       0x4d ./src/timer.o
+
+.debug_line     0x00000000      0x48a
+ .debug_line    0x00000000       0xc4 ./src/UC-Week3-IR.o
+ .debug_line    0x000000c4       0xa7 ./src/cr_startup_lpc13xx.o
+ .debug_line    0x0000016b       0x78 ./src/crp.o
+ .debug_line    0x000001e3       0xc8 ./src/infrared.o
+ .debug_line    0x000002ab      0x162 ./src/leds.o
+ .debug_line    0x0000040d       0x7d ./src/timer.o
+
+.debug_str      0x00000000     0x4563
+ .debug_str     0x00000000     0x28ae ./src/UC-Week3-IR.o
+                               0x28d4 (size before relaxing)
+ .debug_str     0x000028ae      0x1cf ./src/cr_startup_lpc13xx.o
+                               0x25e5 (size before relaxing)
+ .debug_str     0x00002a7d       0xe9 ./src/crp.o
+                               0x24f9 (size before relaxing)
+ .debug_str     0x00002b66       0xe0 ./src/infrared.o
+                               0x2542 (size before relaxing)
+ .debug_str     0x00002c46     0x1777 ./src/leds.o
+                               0x3c09 (size before relaxing)
+ .debug_str     0x000043bd      0x1a6 ./src/timer.o
+                               0x25f9 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/UC-Week3-IR.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/cr_startup_lpc13xx.o
+ .comment       0x00000000       0x71 ./src/crp.o
+ .comment       0x00000000       0x71 ./src/infrared.o
+ .comment       0x00000000       0x71 ./src/leds.o
+ .comment       0x00000000       0x71 ./src/timer.o
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./src/UC-Week3-IR.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/cr_startup_lpc13xx.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/crp.o
+ .ARM.attributes
+                0x00000099       0x33 ./src/infrared.o
+ .ARM.attributes
+                0x000000cc       0x33 ./src/leds.o
+ .ARM.attributes
+                0x000000ff       0x33 ./src/timer.o
+ .ARM.attributes
+                0x00000132       0x33 c:/nxp/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x268
+ .debug_frame   0x00000000       0x28 ./src/UC-Week3-IR.o
+ .debug_frame   0x00000028       0xf4 ./src/cr_startup_lpc13xx.o
+ .debug_frame   0x0000011c       0x74 ./src/infrared.o
+ .debug_frame   0x00000190       0x80 ./src/leds.o
+ .debug_frame   0x00000210       0x58 ./src/timer.o
+
+.debug_loc      0x00000000      0x36d
+ .debug_loc     0x00000000      0x1d1 ./src/cr_startup_lpc13xx.o
+ .debug_loc     0x000001d1       0x84 ./src/infrared.o
+ .debug_loc     0x00000255       0xbe ./src/leds.o
+ .debug_loc     0x00000313       0x5a ./src/timer.o

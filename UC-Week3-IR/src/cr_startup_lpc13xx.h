@@ -1,0 +1,22 @@
+/* This file was automatically generated.  Do not edit! */
+extern unsigned int __bss_section_table_end;
+extern unsigned int __bss_section_table;
+extern unsigned int __data_section_table_end;
+extern unsigned int __data_section_table;
+void(*const g_pfnVectors[])(void);
+int main(void);
+void TIMER16_0_IRQHandler();
+extern __attribute__((section(".isr_vector")))void(*const g_pfnVectors[])(void);
+__attribute__((section(".after_vectors")))void IntDefaultHandler(void);
+__attribute__((section(".after_vectors")))void SysTick_Handler(void);
+__attribute__((section(".after_vectors")))void PendSV_Handler(void);
+__attribute__((section(".after_vectors")))void DebugMon_Handler(void);
+__attribute__((section(".after_vectors")))void SVC_Handler(void);
+__attribute__((section(".after_vectors")))void UsageFault_Handler(void);
+__attribute__((section(".after_vectors")))void BusFault_Handler(void);
+__attribute__((section(".after_vectors")))void MemManage_Handler(void);
+__attribute__((section(".after_vectors")))void HardFault_Handler(void);
+__attribute__((section(".after_vectors")))void NMI_Handler(void);
+__attribute__((section(".after_vectors")))void ResetISR(void);
+__attribute__((section(".after_vectors")))void bss_init(unsigned int start,unsigned int len);
+__attribute__((section(".after_vectors")))void data_init(unsigned int romstart,unsigned int start,unsigned int len);
